@@ -1,0 +1,367 @@
+.hometext {
+  font-size: 35px;
+}
+
+.button1-wrapper {
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+}
+
+.button {
+  background-color: rgb(212, 212, 239);
+  color: rgb(32, 33, 54);
+  text-align: center;
+  font-size: 10px;
+  margin: 4px 2px;
+  border-radius: 12px;
+  height: 30px;
+  width: 70px;
+  border-color: blue;
+}
+
+.home {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-image: url('https://wallpapercave.com/wp/wp2970215.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  scroll-behavior: smooth;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 40px;
+  max-width: 1000px;
+  margin: 0 auto;
+  gap: 40px;
+}
+
+.info {
+  flex: 1;
+  padding-right: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.image {
+  flex: 1;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  height: 40%;
+  position: relative;
+  flex-direction: column;
+}
+
+.img {
+  max-width: 80%;
+  height: auto;
+  border-radius: 12px;
+  float: none;
+  box-shadow: 0 2px 8px rgba(59, 59, 166, 0.08);
+  display: block;
+
+}
+
+.nav {
+  position: fixed;
+  top: 0;
+  width: 94.7%;
+  background-color: #d7dee2;
+  padding: 10px 40px;
+  box-sizing: border-box;
+  z-index: 1000;
+  margin-left: 40px;
+  margin-right: 40px;
+  display: flex;
+  align-items: center;
+  gap: 72%;
+}
+
+.nav-links a {
+  text-decoration: none;
+  display: inline-block;
+  transition: transform 0.3s ease;
+
+}
+
+.nav-links a:hover {
+  transform: scale(1.1);
+
+}
+
+.section {
+  padding: 60px 20px;
+  border-bottom: 1px solid #ccc;
+  margin: 40px;
+}
+
+.footer {
+  background-color: #0c1117;
+  color: white;
+  padding: 32px 40px;
+  margin-left: 40px;
+  margin-right: 40px;
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 60px;
+}
+
+.skills {
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+.body {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.div {
+  text-align: center;
+  background: linear-gradient(90deg,rgb(97, 97, 222) 10%, rgb(230, 89, 21) 100%);
+  color: white;
+  width: 600px;
+  min-height: 40px;
+  border-radius: 18px;
+  padding: 10px;
+  margin: 10px auto;
+  align-items:  center;
+  justify-content: center;
+  box-shadow: 0 4px 16px rgba(59, 59, 166, 0.15);
+  font-size: 1.2rem;
+  letter-spacing: 0.5px;
+  transition: box-shadow 0.2s;
+  flex-direction: column;
+}
+
+.skills-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  gap: 24px;
+  margin: 40px 0;
+  flex-wrap: wrap;
+}
+
+.skills-col {
+  background: #e3dedece;
+  border-radius: 14px;
+  box-shadow: 0 2px 8px rgba(59, 59, 166, 0.08);
+  padding: 24px 18px;
+  flex: 1 1 220px;
+  min-width: 200px;
+  max-width: 260px;
+  margin: 0 8px;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.skills-col h3 {
+  color: #3b3ba6;
+  margin-bottom: 12px;
+  font-size: 1.1rem;
+}
+
+.skills-col ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.skills-col ul li {
+  margin-bottom: 8px;
+  font-size: 0.98rem;
+  color: #222;
+  position: relative;
+  padding-left: 18px;
+}
+
+.skills-col ul li::before {
+  content: '';
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  background: #3b3ba6;
+  border-radius: 50%;
+  position: absolute;
+  left: 0;
+  top: 7px;
+}
+
+.about {
+  margin: 5px 0;
+  display: flex;
+  gap: 10px;
+  width: 100%;
+  justify-content: flex-start;
+  align-items: stretch;
+}
+
+.box {
+  border: 2px solid #e5e5e9;
+  border-radius: 12px;
+  background: #f4f7ff;
+  padding: 12px 10px;
+  margin-bottom: 10px;
+  margin-top: 0;
+  width: 170px;
+  box-shadow: 0 2px 8px rgba(59, 59, 166, 0.08);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.about h5 {
+  margin-bottom: 5px;
+}
+
+.about h6 {
+  margin-top: 0;
+  font-size: 0.60rem;
+}
+
+.footer .links a {
+  color: gray;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.footer .links a:hover {
+  color: white;
+  filter: brightness(1.4);
+  text-decoration: underline;
+}
+
+.footer-title {
+  font-family: 'pacifico';
+  color: white;
+
+}
+
+.tag {
+  background-color: rgb(73, 81, 189);
+  color: white;
+  min-width: 80px;
+  z-index: 2;
+  position: absolute;
+  text-align: center;
+  right: 0;
+  border-radius: 12px;
+  bottom: -12px;
+  padding: 10px 8px;
+  font-size: 1rem;
+  box-shadow: 0 2px 8px rgba(59, 59, 166, 0.15);
+}
+
+.tag h3 {
+  margin: 0;
+  line-height: 1;
+  font-size: 1.35rem;
+}
+
+.tag h6 {
+  margin: 0;
+  line-height: 1;
+  font-size: 0.70rem
+}
+
+.copy {
+  padding: 50px;
+}
+
+input {
+  width: 250px;
+  height: 20px;
+  font-size: 15px;
+  border-radius: 8px;
+  border-color: #dbdee0;
+}
+
+textarea {
+  width: 250px;
+  height: 100px;
+  font-size: 15px;
+  border-radius: 8px;
+}
+
+.form-button {
+  width: 180px;
+  height: 25px;
+  text-align: center;
+  background-color: rgba(45, 45, 181, 0.799);
+  border-radius: 8px;
+  margin: 30px;
+  border: oldlace;
+  color: wheat;
+}
+
+.div1-connect {
+  display: flex;
+  gap: 80px;
+  justify-content: center;
+  align-items: flex-start;
+  margin-top: 24px;
+  flex-wrap: wrap;
+}
+
+.div2-connect {
+
+  background: rgb(219, 219, 224);
+  border-radius: 10px;
+  padding: 24px 20px;
+  min-width: 240px;
+  max-width: 400px;
+}
+
+input::placeholder,
+textarea::placeholder {
+  font-size: 12px;
+  font-style: oblique
+}
+
+.project-img {
+  width: 35%;
+  height: 25%;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.project-div {
+  border-radius: 10px;
+  background-color: rgb(204, 201, 201);
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 32px;
+  display: flex;
+  width: 80%;
+}
+
+.project-desc {
+  min-width: 260px;
+  max-width: 600px;
+  padding: 8px 0;
+  flex: 1 1 320px;
+  padding: 22px 18px;
+  text-align: justify;
+  line-height: 1.1;
+}
+
+.span {
+  font-family: 'pacifico';
+  font-size: 20px;
+}
